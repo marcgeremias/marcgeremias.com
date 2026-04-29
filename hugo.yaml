@@ -1,7 +1,43 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: My New Hugo Project
+title: Marc Geremias Serra
 theme: PaperMod
 
+menu:
+  main:
+    - name: Posts
+      url: /posts/
+      weight: 10
+
+
+    - name: About
+      url: /about/
+      weight: 40
+
 params:
-  author: "Marc"
+  author: "Marc Geremias Serra"
+
+  disableThemeToggle: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  UseHugoToc: true
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+  hideFooter: true
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+
+  mainSections:
+    - posts
+
+  homeInfoParams:
+    Title: "Welcome to my blog"
+    Content: >
+      I'm [Marc](/about/) kjhgfds
+
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/marcgeremias/"
+    - name: "github"
+      url: "https://github.com/marcgeremias"
