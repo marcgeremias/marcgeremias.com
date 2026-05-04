@@ -7,25 +7,32 @@ summary: "About Marc Geremias Serra"
 
 # Hi, I'm Marc 👋
 
-I'm a **Software Engineer** based in Barcelona with a passion for building clean, scalable systems and elegant user experiences.
+I’m a Software Engineer based in Barcelona with a background in computer engineering.
 
-I enjoy working across the full stack — from designing robust backend architectures to crafting polished frontends. I believe good engineering is as much about clarity of thought as it is about technical skill.
+I work mainly with backend systems: building APIs, designing databases, and improving performance for real-world applications. Over the past few years, I’ve worked on high-traffic platforms (especially Moodle-based systems), where reliability, scalability, and clean code really matters.
 
-## What I do
+I enjoy working close to the system level—understanding how things behave in production, debugging issues, and making them faster and more robust. I’ve also worked with CI/CD pipelines and Docker environments, which made me appreciate automation and reproducibility a lot more.
 
-- 🛠 **Backend development** — APIs, microservices, databases
-- 🎨 **Frontend development** — React, TypeScript, modern CSS
-- ☁️ **Cloud & DevOps** — CI/CD pipelines, containerisation, deployment
-- 🤖 **AI/ML integration** — building products on top of LLMs and data pipelines
+---
 
-## Background
+## Why this site exists
 
-I studied Computer Science and have been building software professionally since. I care deeply about code quality, good documentation, and teams that communicate well.
+I have a pretty bad memory.
 
-When I'm not coding, you'll find me hiking in the mountains around Catalonia, reading, or experimenting with side projects.
+So instead of forgetting things I learn, I write them down.
+
+This site is basically my **external brain** — a place where I keep things I find interesting, useful, or worth revisiting.
+
+Most of what you’ll find here:
+- backend notes
+- small technical discoveries
+- things I’m currently learning
+- random ideas worth keeping
+
+---
 
 ## Get in touch
 
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/marcgeremias/) or [GitHub](https://github.com/marcgeremias). I'm always open to interesting conversations and new opportunities.
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/marcgeremias/) or [GitHub](https://github.com/marcgeremias).
 
 You can also download my **[Resume (PDF)](/resume.pdf)**.
