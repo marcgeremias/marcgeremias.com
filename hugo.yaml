@@ -1,43 +1,50 @@
-baseURL: https://example.org/
+baseURL: https://marcgeremias.com/
 languageCode: en-us
 title: Marc Geremias Serra
 theme: PaperMod
 
 menu:
   main:
-    - name: Posts
-      url: /posts/
-      weight: 10
-
-
     - name: About
       url: /about/
-      weight: 40
+      weight: 10
+    - name: Resume
+      url: /resume.pdf
+      weight: 20
 
 params:
   author: "Marc Geremias Serra"
-
-  disableThemeToggle: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  UseHugoToc: true
-  hideSummary: false
-  showtoc: true
-  tocopen: true
-  hideFooter: true
-  ShowReadingTime: true
-  ShowCodeCopyButtons: true
-
-  mainSections:
-    - posts
+  env: production
+  description: "Software Engineer blog by Marc Geremias Serra"
+  profileMode:
+    enabled: false
 
   homeInfoParams:
-    Title: "Welcome to my blog"
-    Content: >
-      I'm [Marc](/about/) kjhgfds
+    Title: "Hola 👋"
+    Content: |
+      I'm [Marc](/about/), a Software Engineer based in Barcelona.
+      I specialize in backend development and system design, building scalable applications with modern tools.
+      Currently improving my skills through hands-on projects and coding challenges.
+      \
+      \
+      👉 Check my [posts](/posts/) or learn more [about me](/about/)
 
   socialIcons:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/marcgeremias/"
     - name: "github"
       url: "https://github.com/marcgeremias"
+
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  hideSummary: true
+  ShowReadingTime: false
+  ShowCodeCopyButtons: true
+  disableThemeToggle: false
+  hideFooter: true
+  UseHugoToc: true
+  showtoc: true
+  tocopen: true
+
+  mainSections:
+    - posts
