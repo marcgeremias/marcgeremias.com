@@ -5,6 +5,9 @@ theme: PaperMod
 
 menu:
   main:
+    - name: Posts
+      url: /posts/
+      weight: 10
     - name: About
       url: /about/
       weight: 10
@@ -28,6 +31,7 @@ params:
       \
       \
       👉 Check my [posts](/posts/) or learn more [about me](/about/)
+      ![image](/images/image.jpg)
 
   socialIcons:
     - name: "linkedin"
