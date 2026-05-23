@@ -1,11 +1,7 @@
 ---
 date: '2026-05-15T11:50:47+02:00'
-draft: false
+draft: true
 title: 'Simple First Web Deployment'
-cover:
-  image: "/images/posts/imatge.jpg"
-  alt: "TODO afeigr diagrama incrememntal"
-  caption: "Opcional caption"
 ---
 
 ## Introduction
