@@ -1,6 +1,5 @@
-baseURL: https://marcgeremias.com/
 languageCode: en-us
-title: Marc Geremias Serra
+title: marcgeremias
 theme: PaperMod
 
 menu:
@@ -16,7 +15,7 @@ menu:
       weight: 20
 
 params:
-  author: "Marc Geremias Serra"
+  author: "marcgeremias"
   env: production
   description: "Software Engineer blog by Marc Geremias Serra"
   profileMode:

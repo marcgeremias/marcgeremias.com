@@ -1,6 +1,6 @@
 ---
 date: '2026-05-13T11:50:47+02:00'
-draft: true
+draft: false
 title: 'Home Server VPN'
 ---
 
