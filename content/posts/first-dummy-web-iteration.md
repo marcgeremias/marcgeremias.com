@@ -1,7 +1,7 @@
 ---
 date: '2026-05-15T11:50:47+02:00'
 draft: false
-title: 'Simple First Web Deployment'
+title: 'Simple first web deployment'
 ---
 
 ## Introduction

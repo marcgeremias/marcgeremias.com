@@ -1,7 +1,10 @@
 ---
 date: '2026-04-29T11:50:47+02:00'
 draft: false
-title: 'Initial Home Server Setup (Ubuntu, SSH & Networking Basics)'
+title: 'Initial home server setup (Ubuntu, SSH & Networking basics)'
+cover:
+    image: "/diagrams/Stage1.drawio.svg"
+    alt: "Stage1 diagram"
 ---
 
 ## Introduction
