@@ -50,9 +50,7 @@ After looking at different providers, I chose [Cloudflare](https://www.cloudflar
 
 After purchasing the domain, the configuration process is quite straightforward. I created a **CNAME record** that points the domain to my DDNS address:
 
-```
-marcgeremias.com → marcshomelab.ddns.net
-```
+`marcgeremias.com → marcshomelab.ddns.net`
 
 ![image](/images/curl_proxy_off.png)
 
@@ -67,9 +65,7 @@ The DNS record is configured in **DNS Only** mode (grey cloud), which means Clou
 
 As a result, when a user accesses `marcgeremias.com`, the request travels directly to my home server:
 
-```
-Browser → Internet → Home Router → Docker Container
-```
+`Browser → Internet → Home Router → Docker Container`
 
 Because Cloudflare is not acting as a reverse proxy, features such as caching, DDoS protection, Web Application Firewall (WAF), and SSL/TLS termination are not being used.
 
