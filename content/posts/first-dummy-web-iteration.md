@@ -44,9 +44,9 @@ And if we try to access the web using the HTTP 443 port we obtain the following 
 
 ## Buying my domain
 
-The [`marcshomelab.ddns.net`](marcshomelab.ddns.net) URL is quite ugly and not very professional, so I decided to buy a domain to improve it.
+The [marcshomelab.ddns.net](http://marcshomelab.ddns.net) URL is quite ugly and not very professional, so I decided to buy a domain to improve it.
 
-After looking at different providers, I chose [Cloudflare](https://www.cloudflare.com/). It offers many services, but for this project I’m only using the basic DNS management features. The domain I chose is [`marcgeremias.com`](marcgeremias.com), which is simple and easy to remember.
+After looking at different providers, I chose [Cloudflare](https://www.cloudflare.com/). It offers many services, but for this project I’m only using the basic DNS management features. The domain I chose is [marcgeremias.com](http://marcgeremias.com), which is simple and easy to remember.
 
 After purchasing the domain, the configuration process is quite straightforward. I created a **CNAME record** that points the domain to my DDNS address:
 
