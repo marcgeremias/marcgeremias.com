@@ -2,6 +2,9 @@
 date: '2026-05-15T11:50:47+02:00'
 draft: false
 title: 'Simple first web deployment'
+cover:
+    image: "/diagrams/Stage3.drawio.svg"
+    alt: "Stage3 diagram"
 ---
 
 ## Introduction
@@ -47,9 +50,31 @@ After looking at different providers, I chose [Cloudflare](https://www.cloudflar
 
 After purchasing the domain, the configuration process is quite straightforward. I created a **CNAME record** that points the domain to my DDNS address:
 
-
 ```
 marcgeremias.com → marcshomelab.ddns.net
 ```
 
-For now, I’m keeping the setup very simple and only using Cloudflare as a DNS provider to make the service accessible with a cleaner domain. In the future, I plan to explore more advanced Cloudflare features such as SSL/TLS configuration, firewall rules, caching, and overall security improvements as I evolve this homelab setup.
+![image](/images/curl_proxy_off.png)
+
+
+## Simple Cloudflare configuration
+
+For this first iteration, I decided to keep the Cloudflare configuration as simple as possible. At this stage, the objective is only to make the website accessible through my custom domain while understanding the networking components involved.
+
+The DNS record is configured in **DNS Only** mode (grey cloud), which means Cloudflare only resolves the domain name to my server's public IP address and does not proxy or inspect any traffic.
+
+![image](/images/cloudflare_proxy_off.png)
+
+As a result, when a user accesses `marcgeremias.com`, the request travels directly to my home server:
+
+```
+Browser → Internet → Home Router → Docker Container
+```
+
+Because Cloudflare is not acting as a reverse proxy, features such as caching, DDoS protection, Web Application Firewall (WAF), and SSL/TLS termination are not being used.
+
+For the same reason, SSL/TLS encryption is currently disabled. The web server only listens on port 80 (HTTP), so all traffic is transmitted unencrypted. This is obviously not recommended for a production environment, but it keeps the setup simple and allows me to focus on understanding the fundamentals before introducing additional layers of complexity.
+
+![image](/images/cloudflare_ssltls_off.png)
+
+In future iterations, I plan to enable Cloudflare's proxy features, configure HTTPS certificates, and explore reverse proxy solutions such as Nginx Proxy Manager or Traefik in order to host multiple services securely under the same domain.
