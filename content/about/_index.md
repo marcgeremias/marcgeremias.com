@@ -21,13 +21,14 @@ I have a pretty bad memory.
 
 So instead of forgetting things I learn, I write them down.
 
-This site is basically my **external brain** — a place where I keep things I find interesting, useful, or worth revisiting.
+This site is basically my **external brain** — a place where I keep things I find interesting, useful, or worth revisiting, including both technical topics and personal projects or hobbies I’m working on.
 
 Most of what you’ll find here:
 - backend notes
 - small technical discoveries
 - things I’m currently learning
 - random ideas worth keeping
+- projects and hobbies I build or experiment with
 
 ---
 

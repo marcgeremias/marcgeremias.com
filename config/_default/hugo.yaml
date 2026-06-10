@@ -15,6 +15,8 @@ menu:
       weight: 20
 
 params:
+  assets:
+    favicon: "/favicon.ico"
   author: "marcgeremias"
   env: production
   description: "Software Engineer blog by Marc Geremias Serra"
@@ -29,7 +31,7 @@ params:
       Currently improving my skills through hands-on projects and coding challenges.
       \
       \
-      👉 Check my [posts](/posts/) or learn more [about me](/about/)
+      Check my [posts](/posts/) or learn more [about me](/about/)
       ![image](/images/image.jpg)
 
   socialIcons:
