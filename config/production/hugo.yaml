@@ -1,3 +1,3 @@
-baseURL: http://marcgeremias.com/
+baseURL: https://marcgeremias.com/
 params:
   env: production
